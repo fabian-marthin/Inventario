@@ -1,0 +1,197 @@
+.adminContainer{
+    margin: 0;
+    background-image: url('../pages/img/fondoAdmin.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    top: 0;
+    padding: 10px;
+    min-height: 100vh;
+    min-width: 830px;
+}
+
+/* FORMULARIO DE REGISTRO */
+
+.formRegItem h1{
+    color: white;
+    text-align: center;
+}
+
+.formRegItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 70%);
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.formRegItem input {
+    border-radius: 0 20px 20px 0px;
+    margin: 10px;
+}
+
+.formRegItem button{
+    margin: 5px;
+    background: #613a00;
+    color: white;
+    width: 150px;
+    padding: 4px;
+    border-radius: 0 20px 20px 0px;
+    border: 3px solid;
+    transition: 1s;
+}
+
+.formRegItem button:hover{
+    background: #ff9900;
+    color: rgb(0, 0, 0);
+}
+
+/* CANVAS */
+
+.contenedorGrafica{
+    display: flex;
+}
+
+canvas{
+    max-width: 400px;
+    max-height: 400px;
+    background-color: rgba(158, 35, 35, 0.5);
+    margin: 10px;
+    padding: 10px;
+}
+.formGrafica{
+    display: flex;
+    flex-wrap: wrap;
+}
+h3{
+    text-align: center;
+    background: rgba(158, 35, 35, 0.5);
+    margin: 0 10px; 
+}
+ 
+/* INPUT DE BUSCAR */
+
+.inputBuscar{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.inputBuscar input{
+    border-radius: 15px;
+    width: 50%;
+    max-width: 300px;
+    height: 30px;
+    padding: 0 10px;
+}
+
+/* INVENTARIO */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th,
+.table td {
+  border: 1px solid #080505;
+  padding: 8px;
+  text-align: center;
+  background-color: darkgray;
+}
+.table th {
+    background-color: #f2f2f2;
+}
+
+.mensajeSinResultados{
+    color: white;
+    list-style: none;
+    font-size: xx-large;
+    background-color: rgba(0, 0, 0, 50%)
+}
+
+.botonConfig{
+    background: transparent;
+    border: none;
+}
+.botonConfig img{
+    width: 30px;
+    cursor: pointer;
+}
+
+/* BOTON DE SALIDA */
+
+.buttonSalir{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    margin: 15px;
+    background: transparent;
+    border: 0px
+}
+
+.buttonSalir img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    background: wheat;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.buttonSalir img:hover{
+    background: #e40d0d;
+}
+
+/* EDITAR */
+
+.edit{
+    text-align: -webkit-center;
+}
+
+.containerEdit h1{
+    color: white;
+    text-align: center;
+}
+
+.containerEdit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 70%);
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.containerEdit input {
+    border-radius: 0 20px 20px 0px;
+    margin: 10px;
+}
+
+.containerEdit button{
+    margin: 5px;
+    background: #613a00;
+    color: white;
+    width: 150px;
+    padding: 4px;
+    border-radius: 0 20px 20px 0px;
+    border: 3px solid;
+    transition: 1s;
+}
+
+.containerEdit button:hover{
+    background: #ff9900;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
